@@ -26,7 +26,6 @@ public class ItemService {
         findItem.setName(name);
         findItem.setPrice(price);
         findItem.setStockQuantity(stockQuantity);
-
     }
 
     public List<Item> findItems() {
